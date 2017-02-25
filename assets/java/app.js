@@ -1,4 +1,4 @@
-
+$(document).ready(function() {
 //Create array of strings, related to topic (comedians)
 var topics = ["Dave Chappelle", "Richard Pryor", "Dane Cook", "Robin Williams", "Katt Williams",
 	"Eddie Griffin", "Kevin Hart"
@@ -7,15 +7,23 @@ var topics = ["Dave Chappelle", "Richard Pryor", "Dane Cook", "Robin Williams", 
 //var comedian = 
 
 //App should take topics from array and create buttons in the HTML
-var newButton = $("<button class='newButton'>");
+var newButton = $("<button>");
 
 //Create a for loop that appends a button for each string in array
 for (var i = 0; i < topics.length; i++) {
-
+	newButton, {
+		text: topics[i],
+		class: comics
+		click: laugh();
+		$("#comedians").append(newButton);
+	}
+	/*
 	var comic = newButton.append(topics[i]);
+	comic.innerHTML = topics[i];
+	comic.attr("value", topics[i]);*/
 
 }
-
+/*
 //When user clicks on button, 10 static, non-animated gif images from GIPHY API will be shown on page
 $("#newButton").on("click", function() {
 
@@ -55,3 +63,4 @@ $("#newButton").on("click", function() {
 //Add form that takes user input , and adds to topics array.
 
 //function call that takes each topic in array, and remakes the buttons on the page 
+});
