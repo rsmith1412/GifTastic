@@ -4,7 +4,7 @@
 
 }*/
 
-#comedyButtons {
+#animal-buttons-div {
 	padding: 10px;
 	background color: red;
 	width: fill;
@@ -14,19 +14,22 @@
 }
 
 button {
-	background-color: teal;
-	color: red;
 	margin-left: 20px;
+	margin-right: 5px;
 	padding: 5px;
+
 }
 
+#moo-button {
+	background-color: black;
+}
 
-
-#comedian-form {
+#animal-form {
 	padding: 10px;
 }
 
-#comedians {
+#zoo {
 	float: left;
-	
+	display: inline-block;
+
 }
