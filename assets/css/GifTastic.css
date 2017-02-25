@@ -1,0 +1,32 @@
+/* {
+	background-color: lightgray;
+	width: 100%;
+
+}*/
+
+#comedyButtons {
+	padding: 10px;
+	background color: red;
+	width: fill;
+	min-height: 100px;
+	width: 100%;
+	float: left;
+}
+
+button {
+	background-color: teal;
+	color: red;
+	margin-left: 20px;
+	padding: 5px;
+}
+
+
+
+#comedian-form {
+	padding: 10px;
+}
+
+#comedians {
+	float: left;
+	
+}
