@@ -20,12 +20,41 @@ button {
 
 }
 
+label {
+	color: #4169E1;
+}
+
+.meow {
+	margin: 5px;
+	border-color: red;
+	background-color: #FFD700;
+	color: purple;
+	border-width: 3px;
+	font-size: 16px;
+}
+
 #moo-button {
 	background-color: black;
 }
 
 #animal-form {
 	padding: 10px;
+}
+
+#animal-input {
+	border-width: 2px;
+	border-color: red;
+}
+
+#p-text {
+	text-decoration-style: bold;
+}
+
+#addAnimal {
+	color: green;
+	border-color: #008080;
+	background-color: #FFFAFA;
+	margin-top: 5px;
 }
 
 #zoo {
